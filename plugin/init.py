@@ -8,7 +8,7 @@ import vim
 
 from pathlib import Path
 
-CONFIG_DIR = os.path.join(Path.home(), ".ComradeNeovim")
+CONFIG_DIR = os.path.join(Path.home(), ".config/comrade-neovim")
 
 def pid_exists_unix(pid):
     try:
